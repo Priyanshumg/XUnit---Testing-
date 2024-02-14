@@ -14,7 +14,7 @@ namespace NetworkUtilityTests.PingTests
         private readonly NetworkService _pingService;
         public NetworkServiceTests()
         {
-            // SUT
+            // SUT - System Under Testing 
             _pingService = new NetworkService();
 
         }
