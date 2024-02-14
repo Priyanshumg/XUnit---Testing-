@@ -25,5 +25,24 @@ namespace NetworkUtilityTests.PingTests
             result.Should().Be("Success: Ping Sent!");
             result.Should().Contain("Success", Exactly.Once());
         }
+
+        [Theory]
+        [InlineData(1,1,2)]
+        [InlineData(2,2,4)]
+
+        public void NetworkService_PingTimeout_ReturnInteger(int a, int b, int ExpectedOutput)
+        {
+            // Arrange
+            var pingService = new NetworkService();
+
+            // Act
+            var result = pingService.PingTimeout(a, b);
+
+            // Assert
+            result.Should().Be(ExpectedOutput);
+            result.Should().BeGreaterThanOrEqualTo(b);
+            result.Should().NotBeInRange(-1000, 0);
+        }
+
     }
 }
