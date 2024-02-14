@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
+using System.Net.NetworkInformation;
 using System.Text;
 using System.Threading.Tasks;
 using FluentAssertions;
@@ -62,6 +63,25 @@ namespace NetworkUtilityTests.PingTests
             // Assert
             result.Should().BeAfter(1.January(2020));
             result.Should().BeBefore(1.January(2025));
+        }
+
+        [Fact]
+        public void NetworkService_PingOptions_ReturnObject()
+        {
+            // Arrange
+            var expected = new PingOptions()
+            {
+                Ttl = 1,
+                DontFragment = true
+            };
+
+            // Act
+            var result = _pingService.GetPingOptions();
+            
+            // Assert
+            result.Should().BeOfType<PingOptions>();
+            result.Should().BeEquivalentTo(expected);
+            result.Ttl.Should().Be(1);
         }
     }
 }
