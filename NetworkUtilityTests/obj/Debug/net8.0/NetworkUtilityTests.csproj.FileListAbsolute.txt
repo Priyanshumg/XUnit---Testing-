@@ -104,3 +104,4 @@ C:\Users\Dell\Desktop\locobuzz .net training\Nunit\NetworkUtilityTests\obj\Debug
 C:\Users\Dell\Desktop\locobuzz .net training\Nunit\NetworkUtilityTests\obj\Debug\net8.0\NetworkUtilityTests.pdb
 C:\Users\Dell\Desktop\locobuzz .net training\Nunit\NetworkUtilityTests\obj\Debug\net8.0\NetworkUtilityTests.genruntimeconfig.cache
 C:\Users\Dell\Desktop\locobuzz .net training\Nunit\NetworkUtilityTests\obj\Debug\net8.0\ref\NetworkUtilityTests.dll
+C:\Users\Dell\Desktop\locobuzz .net training\Nunit\NetworkUtilityTests\obj\Debug\net8.0\NetworkUtilityTests.sourcelink.json
