@@ -1,0 +1,108 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Dell\\Desktop\\locobuzz .net training\\Nunit\\NetworkUtilityTests\\NetworkUtilityTests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Dell\\Desktop\\locobuzz .net training\\Nunit\\NetworkUtilityTests\\NetworkUtilityTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Dell\\Desktop\\locobuzz .net training\\Nunit\\NetworkUtilityTests\\NetworkUtilityTests.csproj",
+        "projectName": "NetworkUtilityTests",
+        "projectPath": "C:\\Users\\Dell\\Desktop\\locobuzz .net training\\Nunit\\NetworkUtilityTests\\NetworkUtilityTests.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dell\\Desktop\\locobuzz .net training\\Nunit\\NetworkUtilityTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Dell\\Desktop\\locobuzz .net training\\Nunit\\NetworkUtility\\NetworkUtility.csproj": {
+                "projectPath": "C:\\Users\\Dell\\Desktop\\locobuzz .net training\\Nunit\\NetworkUtility\\NetworkUtility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.12.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.6.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Dell\\Desktop\\locobuzz .net training\\Nunit\\NetworkUtility\\NetworkUtility.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Dell\\Desktop\\locobuzz .net training\\Nunit\\NetworkUtility\\NetworkUtility.csproj",
+        "projectName": "NetworkUtility",
+        "projectPath": "C:\\Users\\Dell\\Desktop\\locobuzz .net training\\Nunit\\NetworkUtility\\NetworkUtility.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}
